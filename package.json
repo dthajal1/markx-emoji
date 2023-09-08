@@ -14,7 +14,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "lb-tsc -b",
-    "build:watch": "npm install typescript && lb-tsc -b --watch",
+    "build:watch": "lb-tsc -b --watch",
     "build:full": "npm ci && npm run rebuild && npm run test:dev",
     "prettier:cli": "lb-prettier \"**/*.ts\" \"**/*.md\"",
     "prettier:check": "npm run prettier:cli -- -l",
