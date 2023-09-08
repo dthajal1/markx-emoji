@@ -1,0 +1,167 @@
+{
+	"abi":[
+		{
+			"inputs": [],
+			"name": "ProductNFTFactory__NoLicense",
+			"type": "error"
+		},
+		{
+			"anonymous": false,
+			"inputs": [
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "productNFTAddress",
+					"type": "address"
+				},
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "creator",
+					"type": "address"
+				}
+			],
+			"name": "ProductNFTCreated",
+			"type": "event"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256[]",
+					"name": "royaltyShareInfo",
+					"type": "uint256[]"
+				},
+				{
+					"internalType": "address[]",
+					"name": "royaltyAddresses",
+					"type": "address[]"
+				},
+				{
+					"internalType": "uint256[]",
+					"name": "tokenParam",
+					"type": "uint256[]"
+				},
+				{
+					"internalType": "string",
+					"name": "name_",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "symbol_",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "tokenURI_",
+					"type": "string"
+				},
+				{
+					"internalType": "bool",
+					"name": "hasMaxToken_",
+					"type": "bool"
+				},
+				{
+					"internalType": "uint256",
+					"name": "uniqueImages_",
+					"type": "uint256"
+				},
+				{
+					"internalType": "address",
+					"name": "licenseContractAddress_",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "licenseId_",
+					"type": "uint256"
+				}
+			],
+			"name": "createProductNFT",
+			"outputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getProductNFTsCount",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "user",
+					"type": "address"
+				}
+			],
+			"name": "getUserProductNFTs",
+			"outputs": [
+				{
+					"internalType": "address[]",
+					"name": "",
+					"type": "address[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"name": "productNFTs",
+			"outputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"name": "userToProductNFTs",
+			"outputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		}
+	]
+}
