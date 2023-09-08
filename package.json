@@ -13,7 +13,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "npm install typescript && lb-tsc -b",
+    "build": "npm install && lb-tsc -b",
     "build:watch": "lb-tsc -b --watch",
     "build:full": "npm ci && npm run rebuild && npm run test:dev",
     "prettier:cli": "lb-prettier \"**/*.ts\" \"**/*.md\"",
