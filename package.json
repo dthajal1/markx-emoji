@@ -13,7 +13,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "lb-tsc -b",
+    "build": "npm install typescript && lb-tsc -b",
     "build:watch": "lb-tsc -b --watch",
     "build:full": "npm ci && npm run rebuild && npm run test:dev",
     "prettier:cli": "lb-prettier \"**/*.ts\" \"**/*.md\"",
@@ -56,12 +56,7 @@
     "dotenv": "^16.3.1",
     "ethers": "^5.7.2",
     "mongoose": "^7.5.0",
-    "tslib": "^2.0.0",
-    "@loopback/build": "^10.1.0",
-    "@loopback/eslint-config": "^14.0.1",
-    "@loopback/testlab": "^6.1.0",
-    "@types/node": "^18.11.15",
-    "typescript": "~5.2.0"
+    "tslib": "^2.0.0"
   },
   "devDependencies": {
     "@loopback/build": "^10.1.0",
