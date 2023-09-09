@@ -66,7 +66,7 @@ export class MarkXActionController extends BaseDiscordActionController<APIApplic
             manifest: new MiniAppManifest({
                 appId: "markx-emoji-action",
                 developer: "markx.io",
-                name: "MarkX Emoji Action",
+                name: "MarkX Emoji",
                 platforms: ["discord"],
                 shortName: "markx-emoji-action",
                 version: { name: "0.0.1" },
