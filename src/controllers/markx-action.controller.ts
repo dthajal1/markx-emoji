@@ -80,6 +80,28 @@ export class MarkXActionController extends BaseDiscordActionController<APIApplic
                         sizes: '512x512'
                     }
                 ],
+                thumbnails: [
+                    {
+                        label: 'view-emoji',
+                        src: `${getEnvVar('BASE_URL')}/imgs/view-emoji.png`,
+                        sizes: '1050x1150'
+                    },
+                    {
+                        label: 'hello-world',
+                        src: `${getEnvVar('BASE_URL')}/imgs/post-emoji-hello-world.png`,
+                        sizes: '928x792'
+                    },
+                    {
+                        label: 'heart',
+                        src: `${getEnvVar('BASE_URL')}/imgs/post-emoji-heart.png`,
+                        sizes: '934x784'
+                    },
+                    {
+                        label: 'lets-get-started',
+                        src: `${getEnvVar('BASE_URL')}/imgs/post-emoji-lets-get-started.png`,
+                        sizes: '922x788'
+                    },
+                ],
                 category: 'emojis',
                 keywords: ['emojis', 'markx emoji', 'discord'], // TODO: curate it
             }),
